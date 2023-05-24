@@ -1,0 +1,19 @@
+{
+  "name": "social-media-backend",
+  "version": "1.0.0",
+  "description": "Mongoose social media back-end",
+  "main": "server.js",
+  "license": "GNU",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon index"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
