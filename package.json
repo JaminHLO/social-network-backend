@@ -11,7 +11,8 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^6.9.2"
+    "mongoose": "^6.9.2",
+    "dayjs": "^1.10.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.9"

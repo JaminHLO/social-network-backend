@@ -1,5 +1,6 @@
 const { Schema, model } = require('mongoose');
 const reactionSchema = require('./Reaction');
+const timeFormatter = require('../utils/timeFormatter');
 
 // Schema to create a course model
 const thoughtSchema = new Schema(
@@ -12,7 +13,8 @@ const thoughtSchema = new Schema(
     },
     createdAt: {
       type: Date,
-      default: Date.now(), // need to format
+      default: Date.now(), 
+      get: createdTime => timeFormatter(createdTime)
     },
     username: {
       type: String,
