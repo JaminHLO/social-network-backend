@@ -1,28 +1,24 @@
 const { Schema, model } = require('mongoose');
+const reactionSchema = require('./Reaction');
 
 // Schema to create a course model
 const thoughtSchema = new Schema(
   {
     thoughtText: {
       type: String,
-      minLength: 15,
-      maxLength: 500,
-      required: true,
-    },
-    userName: {
-      type: String,
+      minLength: 1,
+      maxLength: 280,
       required: true,
     },
     createdAt: {
       type: Date,
-      default: Date.now(),
+      default: Date.now(), // need to format
     },
-    reactions: [
-      {
-        type: Schema.Types.ObjectId,
-        ref: 'Reaction',
-      },
-    ],
+    username: {
+      type: String,
+      required: true,
+    },
+    reactions: [ reactionSchema ]
   },
   {
     toJSON: {

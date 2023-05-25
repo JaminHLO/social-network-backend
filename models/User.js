@@ -7,23 +7,26 @@ const userSchema = new Schema(
     username: {
       type: String,
       required: true,
-      max_length: 50,
+      unique: true,
+      trimmed: true,
+      max_length: 20,
     },
     email: {
       type: String,
       required: true,
-      max_length: 50,
+      unique: true,
+      max_length: 50, // need matching validation
     },
+    thoughts: [ 
+    {
+      type: Schema.Types.ObjectId,
+      ref: 'thought',
+    },
+  ],
     friends: [
       {
         type: Schema.Types.ObjectId,
         ref: 'user',
-      },
-    ],
-    thoughts: [ // was thoughtSchema
-      {
-        type: Schema.Types.ObjectId,
-        ref: 'thought',
       },
     ],
   },
