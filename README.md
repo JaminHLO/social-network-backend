@@ -11,7 +11,6 @@ This Project is a social network backend that manages users and their thoughts a
 Users will need to install the npm libraries as defined in the included package.json file. Also please create a .env file including entries for the socialDB database as well as a DB_URI of 'mongodb://127.0.0.1:27017/' for local testing.
 Set-Up CLI Commands from project root directory:
 >npm i <br>
->npm run seed<br>
 
 ## Usage
 
