@@ -17,10 +17,11 @@ Set-Up CLI Commands from project root directory:
 A Demonstration Video showing the setup and functionality of the program is available here: <https://www.loom.com/share/a137544a78c043258a147e612f452f60> <br>
 Otherwise, the program server is initialized in the project root directory with:
 >npm run start<br>
-Step 1. Within Insomnia GET and POST commands may be used from: <http://localhost:3001/api/users/> where 'users' could also be 'thoughts' to return a list of any stored users or thoughts respectively. 
-Step 2. Insomnia commands PUT (update) or DELETE may be used on 'users' or 'thoughts' using the path <http://localhost:3001/api/users/123> - where 'users' could also be 'thoughts' and '123' is a valid userId or thoughtId retrieved using GET in step 1. 
-Step 3. Insomnia command POST may be used on 'thoughts' to add 'reactions' to the 'thought' of one of the 'users' using the path <http://localhost:3001/api/thoughts/123> where '123' is a valid 
-Step 4. Insomnia command DELETE may be used on 'reactions' using the path <http://localhost:3001/api/thoughts/123/reactions/456> where '123' is a valid thoughtId and '456' is a valid reactionId both retrieved using GET in step 1.
+
+Step 1. Within Insomnia GET and POST commands may be used from: <http://localhost:3001/api/users/> where 'users' could also be 'thoughts' to return a list of any stored users or thoughts respectively. <br>
+Step 2. Insomnia commands PUT (update) or DELETE may be used on 'users' or 'thoughts' using the path <http://localhost:3001/api/users/123> where 'users' could also be 'thoughts' and '123' is a valid userId or thoughtId retrieved using GET in step 1. <br>
+Step 3. Insomnia command POST may be used on 'thoughts' to add 'reactions' to the 'thought' of one of the 'users' using the path <http://localhost:3001/api/thoughts/123> where '123' is a valid <br>
+Step 4. Insomnia command DELETE may be used on 'reactions' using the path <http://localhost:3001/api/thoughts/123/reactions/456> where '123' is a valid thoughtId and '456' is a valid reactionId both retrieved using GET in step 1.<br>
 A walkthrough of these steps is shown in the demonstration video above.
 
 ## License
