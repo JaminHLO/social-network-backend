@@ -4,7 +4,7 @@
 
 ## Description
     
-This Project is a social network backend that manages users and their thoughts and reactions to other users' thoughts. It is built with javascript with a NoSQL MongoDB backend. It uses the express, mongoose, dotenv, and dayjs libraries and operates from the CLI and Insomnia. 
+This Project is a social network backend that manages users and their thoughts and reactions. It is built with javascript with a NoSQL MongoDB backend. It uses the express, mongoose, dotenv, and dayjs libraries and operates from the CLI and Insomnia. 
     
 ## Installation
 
