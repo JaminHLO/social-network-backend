@@ -14,7 +14,9 @@ Set-Up CLI Commands from project root directory:
 
 ## Usage
 
-A Demonstration Video showing the setup and functionality of the program is available here: <https://www.loom.com/share/b949e7286ac94e9c9eef321881b32d75> <br>
+A Demonstration Video #1 showing the setup and main functionality (other than single user and single thought) of the program is available here: <https://www.loom.com/share/b949e7286ac94e9c9eef321881b32d75> <br>
+Video Demo #2 for single user and single thought:
+<https://www.loom.com/share/7bd35d19cb6b49f0ad6d18a279c4da48> <br>
 Otherwise, the program server is initialized in the project root directory with:
 >npm run start<br>
 
